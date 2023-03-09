@@ -18,10 +18,6 @@ const UserProfileForm = ({userProfile, submitActionHandler}: UserProfileProps) =
     const navigate = useNavigate();
     const context = useContext(activeUserContext);
 
-    const viewProfile = (id: string) => {
-        navigate('../userprofileedit/' + id);
-    };
-
     const formik = useFormik({
         initialValues: {
             id: userProfile.id,

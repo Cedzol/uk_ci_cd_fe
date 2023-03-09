@@ -10,7 +10,6 @@ import HomePageLoggedInUser from "../components/pages/HomePageLoggedInUser";
 import authorities from "../config/Authorities";
 import HomePageLoggedInAdmin from "../components/pages/HomePageLoggedInAdmin";
 import Unauthorized from "../components/pages/Unauthorized";
-import UserProfileForm from "../components/molecules/UserProfileForm/UserProfileForm";
 
 /**
  * Router component renders a route switch with all available pages
