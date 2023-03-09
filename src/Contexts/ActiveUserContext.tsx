@@ -157,7 +157,7 @@ export const ActiveUserContextProvider = ({
   };
 
   function activeUserHasRole(roleToCheck: keyof typeof roles): boolean {
-    return user ? user.roles.some((role) => role.name === roleToCheck) : false;
+    return user ? user.roles?.some((role) => role.name === roleToCheck) ?? false : false;
   }
 
   /**
